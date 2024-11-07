@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
   type(); // Start typewriter effect
 });
 
-// Previous smooth scrolling code
+// smooth scrolling code
 document.querySelectorAll("nav a").forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -80,7 +80,7 @@ document.querySelectorAll("nav a").forEach((anchor) => {
   });
 });
 
-// Previous typewriter effect code
+//  typewriter effect code
 const text = "DevOps & Full Stack Development";
 let index = 0;
 const typewriter = document.querySelector(".typewriter");
@@ -94,7 +94,7 @@ function type() {
   }
 }
 
-// Previous Intersection Observer code
+
 const observerOptions = {
   threshold: 0.1,
 };
